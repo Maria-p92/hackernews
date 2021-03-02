@@ -28,6 +28,13 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration-line: overline;
     margin-bottom: 5rem;
   }
+  h2{
+    justify-self: center;
+    opacity: 0.8;
+    padding-bottom: 3rem;
+    margin: 0;
+    font-weight: 100;
+  }
 `;
 
 export const StoriesContainerWrapper = styled.main`

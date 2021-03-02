@@ -20,6 +20,7 @@ export const StoriesContainer = () => {
       <GlobalStyle />
       <StoriesContainerWrapper data-test-id="stories-container">
         <h1>Hacker News</h1>
+        <h2>Click and enjoy your favorite articles</h2>
         {storyIds.slice(0, count).map(storyId => (
           <Story key={storyId} storyId={storyId} />
         ))}
